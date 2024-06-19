@@ -8,3 +8,13 @@ La función de Azure puede ser ejecutada utilizando el siguiente enlace: https:/
 
 - `code`: Este parámetro es un token de autenticación que permite la ejecución segura de la función. Asegúrate de mantenerlo confidencial y no compartirlo públicamente.
 - `freq`: Este parámetro define la frecuencia (en milisegundos) con la que deseas ejecutar la función. En el ejemplo proporcionado, la frecuencia está establecida en 5000 milisegundos (5 segundos).
+
+## Instrucciones de Ejecución
+
+1. **Abrir el Navegador**: Copia y pega el enlace de la función en la barra de direcciones de tu navegador web.
+   
+2. **Modificar Parámetros (Opcional)**: Si deseas cambiar la frecuencia de ejecución, modifica el valor del parámetro `freq` en la URL. Por ejemplo, para ejecutar la función cada 10 segundos, ajusta `freq=10000`.
+
+3. **Acceder al Enlace**: Presiona "Enter" para acceder al enlace y ejecutar la función. 
+
+4. **Ver Resultados**: La respuesta de la función debería aparecer en tu navegador, mostrando la información o resultados generados por la función.
